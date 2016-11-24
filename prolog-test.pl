@@ -8,6 +8,8 @@ jest(ceb,sk³adnik).
 jest(hawa,pizza).
 jest(marg,pizza).
 jest(texa,pizza).
+jest(wege,pizza).
+
 
 jestsk³adnikiem(ceb,hawa).
 jestsk³adnikiem(ann,hawa).
@@ -16,3 +18,5 @@ jestsk³adnikiem(ser,hawa).
 
 jestsk³adnikiem(ser,marg).
 jestsk³adnikiem(pom,marg).
+
+jestsk³adnikiem(pom,wege).
