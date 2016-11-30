@@ -20,3 +20,15 @@ jestsk³adnikiem(ser,marg).
 jestsk³adnikiem(pom,marg).
 
 jestsk³adnikiem(pom,wege).
+
+zdanie(X) :-  grupa_orzeczenia(X).
+
+grupa_orzeczenia(X) :-
+append(Y,Z,X), orzeczenie(Y), dope³nienie(Z).
+
+
+orzeczenie([poproszê]).
+orzeczenie([proszê]).
+dope³nienie([margaritê]).
+dope³nienie([margheritê]).
+dope³nienie([hawajsk¹]).
